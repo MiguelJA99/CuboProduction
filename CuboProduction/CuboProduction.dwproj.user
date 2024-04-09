@@ -1,0 +1,29 @@
+<AnalysisServicesUserConfiguration xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:ddl300="http://schemas.microsoft.com/analysisservices/2011/engine/300" xmlns:ddl300_300="http://schemas.microsoft.com/analysisservices/2011/engine/300/300" xmlns:ddl400="http://schemas.microsoft.com/analysisservices/2012/engine/400" xmlns:ddl400_400="http://schemas.microsoft.com/analysisservices/2012/engine/400/400" xmlns:ddl500="http://schemas.microsoft.com/analysisservices/2013/engine/500" xmlns:ddl500_500="http://schemas.microsoft.com/analysisservices/2013/engine/500/500" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0">
+  <Configurations>
+    <Configuration>
+      <Name>Development</Name>
+      <Options>
+        <UserIDs>
+          <ConfigurationSetting>
+            <Id>Nucor Production Tracking</Id>
+            <Name>Nucor Production Tracking</Name>
+            <Value xsi:type="xsd:string">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAA6JYYPcH8i0qpqGUwlj72lwAAAAA0AAAATgB1AGMAbwByACAAUAByAG8AZAB1AGMAdABpAG8AbgAgAFQAcgBhAGMAawBpAG4AZwAAABBmAAAAAQAAIAAAAPmywvoEoM2qs7Kleav3BvkeGrl7W8K2V+gzUnT/pbvYAAAAAA6AAAAAAgAAIAAAAP4mSLD0q/1aQdEkro/JK12J+f9V6PW5T0kFp0GDDDuqEAAAANlKFmdWAxjZ9AX9zNYQJl5AAAAAajFoBX6BEi6q5sybLftu9poPhNHK9qhHrz80Grt8KJICggCzA49FRtdQHTHA3u/wS/fjF1dRDE8YYCDtTF3Bkg==</Value>
+          </ConfigurationSetting>
+        </UserIDs>
+        <UserPasswords>
+          <ConfigurationSetting>
+            <Id>Nucor Production Tracking</Id>
+            <Name>Nucor Production Tracking</Name>
+            <Value xsi:type="xsd:string">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAA6JYYPcH8i0qpqGUwlj72lwAAAAA0AAAATgB1AGMAbwByACAAUAByAG8AZAB1AGMAdABpAG8AbgAgAFQAcgBhAGMAawBpAG4AZwAAABBmAAAAAQAAIAAAABJeD8CgGSwPJi9XwNa5i5RGsjFaTSJCpb1PKcKQVKjEAAAAAA6AAAAAAgAAIAAAAE6EwVRnAdnl9qLk5mzsgNq9gzaF7JepC31SvbWVxAfVIAAAALjoQN51Kj+xYBIo7t+HdHhjckhcl4QZevObul8VsmprQAAAAKtb0Efxlvw3n95Nghq3YGg6mAzShMUPcxXwGTMxhHguy7ZsWebHgLsVFuvt53nTzf1rdssHADP8c1/ZrgDWFoA=</Value>
+          </ConfigurationSetting>
+        </UserPasswords>
+        <TargetServer>JAMX-LP-055\MSSQLSERVER1</TargetServer>
+        <TargetDatabase>CuboProduction</TargetDatabase>
+        <StartObject>
+          <ObjectId></ObjectId>
+          <ObjectType>Current</ObjectType>
+        </StartObject>
+      </Options>
+    </Configuration>
+  </Configurations>
+</AnalysisServicesUserConfiguration>

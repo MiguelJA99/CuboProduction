@@ -1,0 +1,75 @@
+﻿<DeploymentSnapshot xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:ddl300="http://schemas.microsoft.com/analysisservices/2011/engine/300" xmlns:ddl300_300="http://schemas.microsoft.com/analysisservices/2011/engine/300/300" xmlns:ddl400="http://schemas.microsoft.com/analysisservices/2012/engine/400" xmlns:ddl400_400="http://schemas.microsoft.com/analysisservices/2012/engine/400/400" xmlns:ddl500="http://schemas.microsoft.com/analysisservices/2013/engine/500" xmlns:ddl500_500="http://schemas.microsoft.com/analysisservices/2013/engine/500/500" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0">
+  <Target>
+    <Database>CuboProduction</Database>
+    <Server>JAMX-LP-055\MSSQLSERVER1</Server>
+    <ConnectionString>Data Source=JAMX-LP-055\MSSQLSERVER1;Timeout=0</ConnectionString>
+  </Target>
+  <Options>
+    <TransactionalDeployment>false</TransactionalDeployment>
+    <PartitionDeployment>DeployPartitions</PartitionDeployment>
+    <RoleDeployment>DeployRolesRetainMembers</RoleDeployment>
+    <ProcessingOption>DoNotProcess</ProcessingOption>
+    <OutputScript></OutputScript>
+    <ImpactAnalysisFile></ImpactAnalysisFile>
+    <ConfigurationSettingsDeployment>Deploy</ConfigurationSettingsDeployment>
+    <OptimizationSettingsDeployment>Deploy</OptimizationSettingsDeployment>
+    <WriteBackTableCreation>UseExisting</WriteBackTableCreation>
+  </Options>
+  <Snapshot>
+    <ObjectSnapshots>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.RelationalDataSource</Type>
+        <TimeStamp>RdZ00W33UMAJuYPtEA/TygHLjbA=22/03/2024 03:42:40 p. m.22/03/2024 09:34:16 a. m.</TimeStamp>
+        <ID>
+          <String>Nucor Production Tracking</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.DataSourceView</Type>
+        <TimeStamp>YF/xc+XvFnF23nGyO/i7iQt9ZZk=22/03/2024 10:32:29 a. m.22/03/2024 09:54:04 a. m.</TimeStamp>
+        <ID>
+          <String>Nucor Production Tracking</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>faC8GOP6VDk7CWGzJmvyunzPPpA=22/03/2024 03:48:55 p. m.22/03/2024 03:36:47 p. m.</TimeStamp>
+        <ID>
+          <String>PRODUCT</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>Bs7m8lsowGFx8dpdms9nEZ08t88=22/03/2024 03:49:38 p. m.22/03/2024 03:36:47 p. m.</TimeStamp>
+        <ID>
+          <String>STRUCTURE</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>R/DGJGbRbXKCDskPajJaXXkMPlQ=22/03/2024 03:51:06 p. m.22/03/2024 03:44:22 p. m.</TimeStamp>
+        <ID>
+          <String>PRODUCTION ORDER</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Cube</Type>
+        <TimeStamp>FuMibmy8fGY6+SD94/GxIPCQRcI=22/03/2024 03:49:38 p. m.22/03/2024 03:36:47 p. m.XBaLv5uFGsIlP/IulYTT5DaDL+Q=22/03/2024 03:36:47 p. m.22/03/2024 03:36:47 p. m.</TimeStamp>
+        <ID>
+          <String>ProductionTracking</String>
+        </ID>
+      </ObjectSnapshot>
+    </ObjectSnapshots>
+    <DatabaseSnapshot>
+      <Type>Microsoft.AnalysisServices.Database</Type>
+      <TimeStamp>oNZ91xHklobBzCU3kt0aHOwF4w8=22/03/2024 08:22:10 a. m.22/03/2024 08:22:09 a. m.</TimeStamp>
+      <ID>
+        <String>CuboProduction</String>
+      </ID>
+    </DatabaseSnapshot>
+    <Granularity>Coarse</Granularity>
+  </Snapshot>
+  <AssemblyLocations />
+  <ProcessingComplete>true</ProcessingComplete>
+  <LastDeployed>2024-03-22T21:51:58.096667Z</LastDeployed>
+</DeploymentSnapshot>
